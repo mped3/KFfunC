@@ -1,0 +1,84 @@
+@keyframes one {
+    0%{
+        margin-left:0%;
+    }
+    10%{
+        margin-left:40%;
+    }
+    20%{
+        margin-left:0%;
+​
+    }
+    50%{
+        margin-left:100%;
+  }
+}
+.basketball{
+    height: 90px;
+    width: 90px;
+    animation: one 7s ease-in infinite;
+}
+​
+  @keyframes two {
+    0%{
+        
+        margin-top:0%;
+    }
+    50%{
+        margin-bottom:60%;
+        
+    }
+    100%{
+        margin-top:0%;
+    }
+}
+.swim{
+    height: 100px;
+    width: 100px;
+    animation: two 8s ease-in-out infinite;
+}
+@keyframes three {
+    from{
+        height:150px;
+    }
+    to{
+        height: 350px;
+    }
+}
+.mario{
+    height: 150px;
+    width: 150px;
+margin-left: 20%;
+    animation: three 5s linear infinite;
+
+}
+@keyframes four {
+    from{
+        transform: rotate(10deg);
+    }
+    to{
+      transform: rotate(540deg);  
+      border: dotted blueviolet 10px;
+    }
+}
+.star{
+    height: 200px;
+    border: solid blue 5px;
+    width: 200px;
+    margin-left: 40%;
+    animation: four 7s ease-out infinite;
+}
+
+@keyframes five {
+    0%{top: 0px; right: 0px; background: red;}
+    25%{top: 0px; right: 100px; background: blueviolet;}
+    45%{top: 100px; right: 100px; background: blue;}
+    60%{top: 100px; right: 0px; background: gray;}
+    100%{top: 0px; right: 0px; background: purple;}
+}
+.boring{
+    height: 100px;
+    width: 100px;
+    animation: five 4s infinite ease-in-out;
+    background-color: aquamarine;
+}
